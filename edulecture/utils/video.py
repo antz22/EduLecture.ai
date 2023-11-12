@@ -32,7 +32,8 @@ def generate_video(presentation_id, voice_id, user_path, video_title, user_voice
     images = [img for img in os.listdir(image_folder) if img.endswith("png")] 
     images.sort()
     # API_KEY = "f5ef28538059549f46f9832bf9309ab6"
-    API_KEY = "32e2a6e83130d6f0e6718bf99df3e474"
+    # API_KEY = "32e2a6e83130d6f0e6718bf99df3e474"
+    API_KEY = "f6d5b3935e642e4f1c548ae7d4be465f"
 
     # should be inputting path to file / name of file, right now is actual raw file itself
     voice_id = generate_clone(user_voice_file, API_KEY, user_name)

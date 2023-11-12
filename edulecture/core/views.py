@@ -84,7 +84,8 @@ def upload_voice(request):
     # Ruoming's key
     # API_KEY = "f5ef28538059549f46f9832bf9309ab6"
     # Anthony's key
-    API_KEY = "32e2a6e83130d6f0e6718bf99df3e474"
+    # API_KEY = "32e2a6e83130d6f0e6718bf99df3e474"
+    API_KEY = "f6d5b3935e642e4f1c548ae7d4be465f"
     voice_id = generate_clone(user.voice_file.path, API_KEY)
 
     # save voice_id to user object
