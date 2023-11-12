@@ -1,7 +1,7 @@
 <br />
 
 <p align="middle">
-    <img src="https://github.com/antz22/rello/blob/master/imgs/hero.png" width="100%" style="margin:0; padding: 0">
+    <img src="https://github.com/antz22/edulecture.ai/blob/master/imgs/hero.png" width="100%" style="margin:0; padding: 0">
 </p>
 
 <br />
